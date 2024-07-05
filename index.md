@@ -13,6 +13,23 @@ They are built on blockchain technology and use cryptocurrency as a means of exc
 
 - SaaS(software as a service) API
 - Web 3.0( security onboarding )
+
+- Web 3.0 Keywords:
+
+Decentralization: Web 3.0 is characterized by decentralized networks, often powered by blockchain technology1.
+Semantic Web: Enhancing web technologies to generate, share, and connect content through search and analysis based on the ability to understand the meaning of words1.
+
+Token Economy: The use of cryptocurrency tokens to incentivize and monetize online interactions and transactions1.
+User Empowerment: Users have more control over their data and can potentially profit from their online activities1.
+Interoperability: Different blockchain networks and systems can work together seamlessly1.
+
+Web 4.0 Keywords:
+Symbiotic Web: Web 4.0 is envisioned as a symbiotic web where humans and machines can interact more intuitively, possibly through mind-controlled interfaces2.
+
+Advanced Automation: Incorporating advanced AI and machine learning to automate tasks and provide personalized experiences3.
+Cerebral Internet: Speculations suggest that Web 4.0 could be more integrated with human thought processes3.
+
+Ubiquitous Computing: Computing that is available anytime and everywhere, possibly embedded in everyday objects3.
 - Web 4.0( advanced automation )
 - Token( share project )
 
