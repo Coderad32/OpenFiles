@@ -1,7 +1,18 @@
-# Welcome Dapplication platform
+# Welcome Dapplication Platform
 
-A smaller sized SAAS digital company starting fresh with goal
-of providing a quality service API for all that wish to use it.
+A smaller sized SAAS digital asset holdings company 
+
+starting fresh with goal of creating a mechanical token
+used for infastructure purposes as part of a digital strategy.
+
+and to provide a quality service API for all that wish to use it.
+## SAAS Company
+
+To keep people happy there will be a clear goal for dist of token asset classification units.
+
+- software as a service
+- Digital Holdings
+- Asset Creation
 
 ## What is a Dapplication
 
@@ -16,23 +27,41 @@ They are built on blockchain technology and use cryptocurrency as a means of exc
 
 - Web 3.0 Keywords:
 
-Decentralization: Web 3.0 is characterized by decentralized networks, often powered by blockchain technology1.
-Semantic Web: Enhancing web technologies to generate, share, and connect content through search and analysis based on the ability to understand the meaning of words1.
+## Decentralization: 
+Web 3.0 is characterized by decentralized networks, often powered by blockchain technology.
 
-Token Economy: The use of cryptocurrency tokens to incentivize and monetize online interactions and transactions1.
-User Empowerment: Users have more control over their data and can potentially profit from their online activities1.
-Interoperability: Different blockchain networks and systems can work together seamlessly1.
+## Semantic Web: 
+Enhancing web technologies to generate, share, and connect content through search and analysis based on the ability to understand the meaning of words.
 
-Web 4.0 Keywords:
-Symbiotic Web: Web 4.0 is envisioned as a symbiotic web where humans and machines can interact more intuitively, possibly through mind-controlled interfaces2.
+## Token Economy: 
+The use of cryptocurrency tokens to incentivize and monetize online interactions and transactions.
 
-Advanced Automation: Incorporating advanced AI and machine learning to automate tasks and provide personalized experiences3.
-Cerebral Internet: Speculations suggest that Web 4.0 could be more integrated with human thought processes3.
+## User Empowerment: 
+Users have more control over their data and can potentially profit from their online activities.
 
-Ubiquitous Computing: Computing that is available anytime and everywhere, possibly embedded in everyday objects3.
+## Interoperability: 
+Different blockchain networks and systems can work together seamlessly.
+
+## Web 4.0 Keywords:
+## Symbiotic Web: 
+Web 4.0 is envisioned as a symbiotic web where humans and machines can interact more intuitively, possibly through mind-controlled interfaces.
+
+## Advanced Automation:
+Incorporating advanced AI and machine learning to automate tasks and provide personalized experiences.
+
+## Cerebral Internet: 
+Speculations suggest that Web 4.0 could be more integrated with human thought processes.
+
+## Ubiquitous Computing: 
+Computing that is available anytime and everywhere, possibly embedded in everyday objects.
+
 - Web 4.0( advanced automation )
 - Token( share project )
-
+- Infastructure Token unit
+- planned contract
+- planned DATA: feed
+- results: return
+  
 Each topic I would like to discuss today with you is about creating
 independence freedom and transform the digital landscape into something
 of value.
@@ -62,13 +91,13 @@ share information and ideas.
 
 ## Tokenize / Security
 
-- Account encryption.
+- Account encryption. AES
 
-- For security purposes only.
+- For security purposes only. SSL VPN
 
-- Results driven.
+- Results driven. ANONYMOUS DATA
 
-- See the Result.
+- See the Result. TRUSTED INPUT
 
 ## Contribution / Open Source Fork
 
