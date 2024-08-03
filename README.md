@@ -1,14 +1,20 @@
 # Open Work
+The Open Work Platform is about creating a safe space
+for work to be conducted and to give developers their
+own workspace namespace.
 
 ## Table of Contents
-1. Introduction
-2. Installation
-3. Usage
-4. Contributing
-5. License
+1. Introduction - Summary
+2. Installation - Guide
+3. Usage - CLI
+4. Contributing - Support Code
+5. License - MIT
 
 ## Introduction
-This project is an AI application designed to solve [problem or task]. It uses [algorithms or methods] and is implemented in [programming languages or frameworks].
+This project is a smaller idea to get done
+create a user space for users to work
+
+cli python application
 
 ## Installation
 To install this project, follow these steps:
