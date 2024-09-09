@@ -6,9 +6,10 @@ own workspace namespace.
 ## Table of Contents
 1. Introduction - Summary
 2. Installation - Guide
-3. Usage - CLI
-4. Contributing - Support Code
-5. License - MIT
+3. CodesToken - Infastructure
+4. Usage - CLI
+5. Contributing - Support Code
+6. License - MIT
 
 ## Introduction
 This project is a smaller idea to get done
