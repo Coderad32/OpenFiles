@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Link
+Name=Temp
+Comment=Template Application
+Icon=unix-privesc-check
+URL=path/route=eq?  RE_KEY = re.compile('^([a-zA-Z_][a-zA-Z0-9_.\\-]*)(\\[([a-zA-Z_@]+)\\])?$')
