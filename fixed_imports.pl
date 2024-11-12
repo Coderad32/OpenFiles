@@ -20,7 +20,7 @@ use requests
 use re
 use os
 
-<< INPUT (DATA) 
+<< INPUT (DATA) eval [DATA_] 
 # ================================================
 #   # import DATA from resource callback url;
 #   # DATA FROM SOURCE PROJECT
@@ -29,9 +29,9 @@ use os
 # # return true and or false if statement is true or false
 # # TRUE [system is operational.] and or FALSE [system is not available.]
 # ================================================
-else: 
+else: BEGIN() 
     break(parameter) caller( '$$/' );
 
 return 0;
-
+END
                                 OUTPUT >>
