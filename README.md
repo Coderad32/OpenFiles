@@ -1,9 +1,11 @@
 # Open Work
+
 The Open Work Platform is about creating a safe space
 for work to be conducted and to give developers their
 own workspace namespace.
 
 ## Table of Contents
+
 1. Introduction - Summary
 2. Installation - Guide
 3. CodesToken - Infastructure
