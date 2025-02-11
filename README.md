@@ -13,11 +13,11 @@ own workspace namespace.
 5. Contributing - Support Code
 6. License - MIT
 
-## Introduction
-This project is a smaller idea to get done
-create a user space for users to work
+## Introduction / Summary
 
-cli python application
+This project OpenFiles is a DATA driven networking project
+
+cli python application 
 
 ## Installation
 To install this project, follow these steps:
