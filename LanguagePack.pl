@@ -1,5 +1,8 @@
+import system;
 
-Export Language Pack
+use Packs::Language;
+export Language::Pack
+
 use warnings;
 
 use strict;
@@ -8,6 +11,8 @@ use utf8;
 import > open > system;
  
 use syntax;
+use readonly;
+
 export warnings;
 
 index ... open system( open file system )
@@ -34,20 +39,23 @@ Cody( account created )
 
 	DATA $$
 
-html css js web app
+for while do COMMAND $$ ARRAY[ eval DATA ]
+while do: COMMAND VALID EXEC COMMAND::LIST
 
-       A manual page consists of several sections.
+while AVAILABLE
 
-       Conventional section names include NAME, SYNOPSIS, CONFIGURATION, DESCRIPTION, OPTIONS, EXIT STATUS,
-       RETURN VALUE, ERRORS, ENVIRONMENT, FILES, VERSIONS, CONFORMING TO, NOTES,  BUGS,  EXAMPLE,  AUTHORS,
-       and SEE ALSO.
+true &&|| false
+on and or off
 
-       The  following  conventions  apply  to the SYNOPSIS section and can be used as a guide in other sec‐
-       tions.
+BEGIN: route/file/path
 
-       bold text          type exactly as shown.
-       italic text        replace with appropriate argument.
-       [-abc]             any or all arguments within [ ] are optional.
-       -a|-b              options delimited by | cannot be used together.
-       argument ...       argument is repeatable.
-       [expression] ...   entire expression within [ ] is repeatable.
+export 6
+
+	else break program
+ caller $$ AUTH() userspace
+
+ return 0
+
+ END
+
+
