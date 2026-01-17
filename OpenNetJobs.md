@@ -23,6 +23,17 @@ return 1
 exit 0
 END
 ```
+## Output
+
+```perl
+
+<META::RESULT>
+  selected: 1
+  meaning: command tools
+  status: EXIT_SUCCESS
+</META::RESULT>
+
+```
 
 ```perl
 
