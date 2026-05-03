@@ -1,0 +1,58 @@
+```perl
+
+import system
+
+use strict
+use warnings
+
+use readonly enlgish
+
+BEGIN: app -> pushed.DATABASE.ATTACHED* -> Program.exe*()
+
+    #
+    # SOURCE CODE PLATFORM PATCH UPDATE  #
+    # FIRST COMMAND MENU(open |> menu ); # Open Next Available Parameter
+    # SELECT CLIENT MENU(open |> menu ); #
+    #
+    # 2026 -|> Beyond The Viewport( open | parameter )
+    #
+
+SORUCE CODE - OPEN SOURCE PLATFORM
+
+SHARE YOUR CUSTOM PATCH WITH US
+BASED ON OUR PROJECT LISTED THERE
+
+RETURN = ROI
+ROI = INITIAL INVESTMENT FIRST CONTACT CONNECT
+
+    for while do command-loop
+    menu( open | parameter: menu( fx ) )
+
+smart contact ETH network if possible use REMIX ID IF payment card or eth is available 
+in your meta mask account. not possible never setup the money before.
+
+COMMAND AVAILABLE NEXT NETWORK COMMAND MENU ARRAY CONTACT OK CALLER SELECT USER DIALER CONNECT
+SERVICE HANDLER LOCATION RECOVERY INBOUND WAITING FOR BETTER CONDITIONS ALWAYS JAMS PEOPLE UP.
+
+for while do(open | parameter )
+
+command: IF AVAILABLE
+
+    issue next command
+connect caller command 
+
+return value smart contacts
+token issuance from remix IDE is a little tricky
+setup compiler settings to allow version updated ?
+    
+    configure('service.html -> push.DATA* ')
+
+=POD
+
+=DATA
+
+=DOC
+
+
+END;
+```
