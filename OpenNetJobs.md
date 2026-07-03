@@ -61,7 +61,7 @@ auth scalars
 auth split
 auth peek
 auth runtime
-auth permisssions
+auth permissions
 auth open parameter
 auth close parameter
 auth nested object
