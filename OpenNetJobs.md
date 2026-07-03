@@ -50,6 +50,37 @@ ID_NETWORKER %caller.tag
 
 ## Configure System
 
+```perl
+
+!! @@ ## $$ %% ^^ && ** (( )) __ ++ == -- 00 99 88 77 66 55 44 33 22 11 ~~
+
+auth status
+auth id
+auth comments
+auth scalars
+auth split
+auth peek
+auth runtime
+auth permisssions
+auth open parameter
+auth close parameter
+auth nested object
+auth incremental additional operator
+auth equal too operator
+auth tac tac operator
+auth 00
+auth 99
+auth 88
+auth 77
+auth 66
+auth 55
+auth 44
+auth 33
+auth 22
+auth 11
+auth stream tilde operator
+
+```
 Setup Enviornmental Makefile for say python or something like pip package manager.
 
 ## Pip Package Manager
