@@ -35,15 +35,21 @@ END
 
 ```
 
-```perl
+## Welcome To Open Net Jobs 
+Documentation (status, array, hash, peek, runtime, split, permissions )
 
-## Welcome To Open Net Jobs Documentation (status, array, hash, permissions )
-## Open Jobs Network (caller,ID, auth() )
+## Open Jobs Network (caller, ID, auth() )
+
+NETWORKER_ID
 
 ## runtime (peek, split, caller, tag )
-## enviornment variables setup config file (tags variables )
 
-```
+ID_NETWORKER %caller.tag
+
+## enviornment variables setup config file (tags variables runtime permissions )
+
 ## Configure System
 
 Setup Enviornmental Makefile for say python or something like pip package manager.
+
+
