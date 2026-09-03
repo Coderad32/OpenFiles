@@ -1,5 +1,11 @@
-```perl
+#!/usr/bin/env perl
 
+use strict;
+use warnings;
+
+# Encapsulating the provided configuration and source information cleanly into a Perl script.
+
+my $source_info = <<'END_INFO';
 import system
 
 use strict
@@ -52,7 +58,8 @@ setup compiler settings to allow version updated ?
 =DATA
 
 =DOC
+END_INFO
 
+print $source_info;
 
-END;
-```
+1;
