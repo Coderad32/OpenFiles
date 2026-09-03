@@ -6,19 +6,19 @@
     <title>Open Work - Workspace & Development Platform</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
+<body id="home">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">🚀 Open Work</a>
+            <a class="navbar-brand fw-bold" href="#home">🚀 Open Work</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#jobs">Workspaces</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#workspaces">Workspaces</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -29,9 +29,9 @@
         <div class="container py-5">
             <div class="p-5 bg-dark text-white rounded-3 shadow">
                 <div class="container-fluid py-4">
-                    <h1 class="display-5 fw-bold">Build, Code, and Find Work Together</h1>
-                    <p class="col-md-8 fs-4 text-secondary-emphasis">Open Work is the ultimate developer workspace and ecosystem designed to help you discover high-impact projects, collaborate seamlessly, and accelerate your career.</p>
-                    <a href="#jobs" class="btn btn-primary btn-lg mt-3" type="button">Explore Workspaces</a>
+                    <h1 class="display-5 fw-bold text-white">Build, Code, and Find Work Together</h1>
+                    <p class="col-md-8 fs-4 text-white">Open Work is the ultimate developer workspace and ecosystem designed to help you discover high-impact projects, collaborate seamlessly, and accelerate your career.</p>
+                    <a href="#workspaces" class="btn btn-primary btn-lg mt-3" type="button">Explore Workspaces</a>
                 </div>
             </div>
         </div>
@@ -44,13 +44,13 @@
                 <p class="text-muted">Everything a developer needs to thrive in modern remote environments.</p>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4" id="workspaces">
             <div class="col">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title fw-bold">⚡ Instant Workspaces</h5>
                         <p class="card-text text-muted">Spin up pre-configured cloud development environments with zero setup friction.</p>
-                        <a href="#jobs" class="btn btn-outline-primary mt-auto">Learn More</a>
+                        <a href="#contact" class="btn btn-outline-primary mt-auto">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title fw-bold">🌐 Global Opportunities</h5>
                         <p class="card-text text-muted">Connect directly with vetted tech companies looking for specialized developer talent.</p>
-                        <a href="#jobs" class="btn btn-outline-primary mt-auto">Find Jobs</a>
+                        <a href="#contact" class="btn btn-outline-primary mt-auto">Find Jobs</a>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title fw-bold">🤝 Peer Collaboration</h5>
                         <p class="card-text text-muted">Work side-by-side with open-source contributors and elite engineering squads.</p>
-                        <a href="#jobs" class="btn btn-outline-primary mt-auto">Join Squads</a>
+                        <a href="#contact" class="btn btn-outline-primary mt-auto">Join Squads</a>
                     </div>
                 </div>
             </div>
@@ -77,14 +77,14 @@
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title fw-bold">🔒 Secure & Scalable</h5>
                         <p class="card-text text-muted">Enterprise-grade security standards protecting your code repositories and data integrity.</p>
-                        <a href="#jobs" class="btn btn-outline-primary mt-auto">View Specs</a>
+                        <a href="#contact" class="btn btn-outline-primary mt-auto">View Specs</a>
                     </div>
                 </div>
             </div>
         </div>
     </main>
 
-    <footer class="bg-dark text-white py-4 mt-auto">
+    <footer id="contact" class="bg-dark text-white py-4 mt-auto">
         <div class="container text-center">
             <p class="mb-2">&copy; 2026 Open Work. All rights reserved.</p>
             <ul class="list-inline mb-0">
@@ -98,14 +98,20 @@
     </footer>
 
     <div class="modal fade" id="securityModal" tabindex="-1" aria-labelledby="securityModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="securityModalLabel">Security Information</h5>
+                    <h5 class="modal-title fw-bold" id="securityModalLabel">Platform Security Infrastructure</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    At Open Work, we prioritize platform and infrastructure security. All developer containers are isolated using secure sandboxing, and data transmissions are encrypted end-to-end using advanced TLS protocols.
+                    <p>At Open Work, safeguarding your projects, source code, and developer credentials is our highest priority. We implement robust, multi-layered security frameworks across our entire infrastructure:</p>
+                    <ul>
+                        <li><strong>Container Isolation:</strong> Every development workspace runs inside a heavily sandboxed, isolated micro-VM to prevent cross-container interference.</li>
+                        <li><strong>End-to-End Encryption:</strong> All data in transit is encrypted using advanced TLS protocols, and data at rest is secured via AES-256 bit encryption standards.</li>
+                        <li><strong>Access Controls:</strong> Fine-grained token management and multi-factor authentication (MFA) ensure only authorized collaborators access your environments.</li>
+                        <li><strong>Vulnerability Scanning:</strong> Continuous automated audits check dependencies and repositories for common vulnerabilities and exposures (CVEs).</li>
+                    </ul>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -115,14 +121,20 @@
     </div>
 
     <div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="privacyModalLabel">Privacy Policy</h5>
+                    <h5 class="modal-title fw-bold" id="privacyModalLabel">Privacy Policy & Data Handling</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    We respect your data privacy. Open Work collects minimal user information strictly required to optimize your workspace layout and connect you with relevant engineering gigs. We never sell your personal information to third parties.
+                    <p>Open Work is built by developers, for developers. We believe your data belongs to you. This privacy policy outlines our data processing commitments:</p>
+                    <ul>
+                        <li><strong>Minimal Data Collection:</strong> We only track metrics necessary for provisioning workspaces, matching you with relevant job opportunities, and ensuring optimal platform performance.</li>
+                        <li><strong>No Data Selling:</strong> We never sell, rent, or monetize your personal user data, source code, or telemetry logs to data brokers or third-party advertisers.</li>
+                        <li><strong>Code Confidentiality:</strong> Your code repositories remain strictly confidential. Our automated systems analyze code syntax purely for workspace configuration and never use private repos to train public models without explicit consent.</li>
+                        <li><strong>User Rights:</strong> You retain the right to request a complete export or deletion of your account history and personal data at any time via your settings dashboard.</li>
+                    </ul>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -132,14 +144,20 @@
     </div>
 
     <div class="modal fade" id="cookiesModal" tabindex="-1" aria-labelledby="cookiesModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="cookiesModalLabel">Cookie Policy</h5>
+                    <h5 class="modal-title fw-bold" id="cookiesModalLabel">Cookie Policy & Preferences</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Open Work uses essential cookies to remember your workspace dashboard settings, auth tokens, and preferences. You can manage or clear your cookie preferences directly through your browser settings.
+                    <p>To deliver a smooth, reliable development and hiring platform, Open Work uses cookies and similar tracking technologies. Here is how we categorize them:</p>
+                    <ul>
+                        <li><strong>Essential Cookies:</strong> Required for fundamental site features such as session authentication, secure workspace logins, and user preferences.</li>
+                        <li><strong>Performance & Analytics Cookies:</strong> Help us analyze how developers interact with our workspace deployment tools so we can optimize load times and interface layouts.</li>
+                        <li><strong>Functional Cookies:</strong> Remember custom configurations, such as your dark/light theme choices and terminal shortcut maps.</li>
+                        <li><strong>Managing Cookies:</strong> You can block or delete cookies via your browser settings; however, disabling essential cookies may impact your ability to log in or deploy workspaces.</li>
+                    </ul>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -149,14 +167,20 @@
     </div>
 
     <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="termsModalLabel">Terms of Service</h5>
+                    <h5 class="modal-title fw-bold" id="termsModalLabel">Terms of Service</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    By using Open Work, you agree to maintain professional code behavior, adhere to workspace community standards, and respect intellectual property rights across all hosted projects and job portals.
+                    <p>Welcome to Open Work. By creating an account or accessing our developer ecosystem, you agree to comply with and be bound by the following terms:</p>
+                    <ul>
+                        <li><strong>Account Eligibility:</strong> Users must be at least 18 years of age or possess legal authorization from a guardian or enterprise organization to operate developer accounts.</li>
+                        <li><strong>Acceptable Use:</strong> Workspaces must not be utilized for malicious activities, including but not limited to cryptomining, hosting malware, unauthorized network scanning, or DDoS attacks.</li>
+                        <li><strong>Intellectual Property:</strong> You retain full ownership of all code, software, and creative materials you build within your designated Open Work environments.</li>
+                        <li><strong>Service Availability:</strong> While we strive for 99.9% platform uptime, we reserve the right to perform scheduled maintenance updates to keep cloud infrastructure stable and secure.</li>
+                    </ul>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -166,14 +190,20 @@
     </div>
 
     <div class="modal fade" id="codeModal" tabindex="-1" aria-labelledby="codeModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="codeModalLabel">Code of Conduct</h5>
+                    <h5 class="modal-title fw-bold" id="codeModalLabel">Community Code of Conduct</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Open Work is dedicated to providing a safe, inclusive, and harassment-free environment for developers of all backgrounds, skill levels, and identities. We expect collaborative and respectful communications at all times.
+                    <p>Open Work is dedicated to cultivating a welcoming, collaborative, and diverse community of developers, engineers, and creators. We expect all participants to uphold these core standards:</p>
+                    <ul>
+                        <li><strong>Inclusivity & Respect:</strong> Harassment, hate speech, discrimination, or personal attacks based on gender, race, religion, sexual orientation, or technical skill level will not be tolerated.</li>
+                        <li><strong>Constructive Collaboration:</strong> Foster a culture of mentorship and constructive peer code reviews. Support fellow builders on their path to finding meaningful work.</li>
+                        <li><strong>Professionalism in Job Matching:</strong> Maintain integrity and honesty during recruitment pipelines, interviews, and contract negotiations hosted through the platform.</li>
+                        <li><strong>Reporting Violations:</strong> If you witness or experience behavior that violates this code of conduct, please report it immediately to our community safety team at safety@openwork.dev.</li>
+                    </ul>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
